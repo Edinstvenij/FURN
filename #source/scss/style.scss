@@ -413,7 +413,12 @@ body {
 
   //page all-product
   &-header-all-product-logo {
-    width: 29px;
+    width: 36px;
+
+    @media (max-height:630px),
+    (max-width:768px) {
+      width: 29px;
+    }
   }
 }
 
