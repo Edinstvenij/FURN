@@ -1,9 +1,8 @@
 <!-- header -->
 <?php
-$title = 'Product';
+$title = 'pouf mushroom';
 require_once 'blocks/header.php' ?>
 <!-- END header -->
-
 
 <section class="product-preview-wrapper">
   <div class="product-preview">
@@ -15,43 +14,44 @@ require_once 'blocks/header.php' ?>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
             <picture>
-              <source srcset="img/product/1-product-noize-table.webp" type="image/webp">
-              <img src="img/product/1-product-noize-table.png" alt="SITTING">
+              <source srcset="img/product/1-puff-mushroom.webp" type="image/webp">
+              <img src="img/product/1-puff-mushroom.png" alt="SITTING">
             </picture>
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
             <picture>
-              <source srcset="img/product/2-product-noize-table.webp" type="image/webp">
-              <img src="img/product/2-product-noize-table.png" alt="SITTING">
+              <source srcset="img/product/2-puff-mushroom.webp" type="image/webp">
+              <img src="img/product/2-puff-mushroom.png" alt="SITTING">
             </picture>
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
             <picture>
-              <source srcset="img/product/3-product-noize-table.webp" type="image/webp">
-              <img src="img/product/3-product-noize-table.png" alt="SITTING">
+              <source srcset="img/product/3-puffs.webp" type="image/webp">
+              <img src="img/product/3-puffs.png" alt="SITTING">
             </picture>
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
             <picture>
-              <source srcset="img/product/4-product-noize-table.webp" type="image/webp">
-              <img src="img/product/4-product-noize-table.png" alt="SITTING">
+              <source srcset="img/product/4-puffs.webp" type="image/webp">
+              <img src="img/product/4-puffs.png" alt="SITTING">
             </picture>
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
             <picture>
-              <source srcset="img/product/5-product-noize-table.webp" type="image/webp">
-              <img src="img/product/5-product-noize-table.png" alt="SITTING">
+              <source srcset="img/product/5-puff-mushroom.webp" type="image/webp">
+              <img src="img/product/5-puff-mushroom.png" alt="SITTING">
             </picture>
           </div>
         </div>
+
       </div>
       <!-- If we need navigation buttons -->
       <div class="product-preview__slider-row-button">
@@ -69,39 +69,40 @@ require_once 'blocks/header.php' ?>
       <!-- If we need titles and order buttons -->
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
-          <h2 class="product-preview__slider-product-name">liquid table</h2>
-          <button class="product-preview__slider-product-order-button">Check price</button>
+          <p class="product-preview__slider-product-name">lurking pouf mushroom</p>
+          <button class="product-preview__slider-product-order-button" style="background-color: #CBC2B4;">Check
+            price</button>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="product-info">
+<section class="product-info" style="background-color: #CBC2B4;">
   <div class="product-info__wrapper">
     <div class="row product-info__row">
       <div class="col product-info__info-col">
-        <h2 class="product-info__info-name">PRODUCT INFORMATION</h2>
+        <p class="product-info__info-name">PRODUCT INFORMATION</p>
         <ul class="product-info__info-ul">
-          <li class="product-info__info-li">SIZE: 800х600 cm</li>
-          <li class="product-info__info-li">BASE COLOR: grey metall</li>
-          <li class="product-info__info-li">BASE MATERIAL: metall</li>
-          <li class="product-info__info-li">HEIGHT: 610 cm</li>
-          <li class="product-info__info-li">wight: 600 cm</li>
-          <li class="product-info__info-li">diametr: 300 cm</li>
+          <li class="product-info__info-li">SIZE: 400х800 cm</li>
+          <li class="product-info__info-li">BASE COLOR: mushroom</li>
+          <li class="product-info__info-li">BASE MATERIAL: textile</li>
+          <li class="product-info__info-li">diametr: 800 cm</li>
+          <li class="product-info__info-li">diametr: 620 cm</li>
         </ul>
-        <a class="product-info__info-name" href="img/download/LIQUID_TABLE_3D_2D.rar">DOWNLOAD 2D 3D </a>
+        <a class="product-info__info-name" href="img/download/fabric options.pdf" target="_blank">fabric catalog</a>
+        <a class="product-info__info-name" href="img/download/LURKING_POUF_3D_2D.rar">DOWNLOAD 2D 3D </a>
       </div>
       <div class="product-info__wrapper-row-img">
         <div class="product-info__wrapper-img ">
           <picture>
-            <source srcset="img/product/1-info-product-noize-table.webp" type="image/webp">
-            <img src="img/product/1-info-product-noize-table.png" alt="">
+            <source srcset="img/product/1-info-puff.webp" type="image/webp">
+            <img src="img/product/1-info-puff.png" alt="">
           </picture>
         </div>
         <div class="product-info__wrapper-img">
           <picture>
-            <source srcset="img/product/2-info-product-noize-table.webp" type="image/webp">
-            <img src="img/product/2-info-product-noize-table.png" alt="">
+            <source srcset="img/product/2-info-puff.webp" type="image/webp">
+            <img src="img/product/2-info-puff.png" alt="">
           </picture>
         </div>
       </div>

@@ -22,7 +22,7 @@ $filters = [
 
 <body>
   <header class="header-all-product
-  <?php if ($_SERVER['REQUEST_URI'] == '/product-page.php') {
+  <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
     echo 'header-product-preview';
   } ?>">
     <div class="container">
@@ -31,10 +31,10 @@ $filters = [
 
           <a href="/"><img src="img/mini-logo.svg" alt=""></a>
         </div>
-        <?php if ($_SERVER['REQUEST_URI'] == '/all-product.php' || $_SERVER['REQUEST_URI'] == '/product-page.php') { ?>
+        <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' || $_SERVER['REQUEST_URI'] != '/') { ?>
           <nav class="catalog">
             <ul class="catalog__ul">
-              <?php if ($_SERVER['REQUEST_URI'] == '/product-page.php') { ?>
+              <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php') { ?>
                 <?php foreach ($filters as $value) : ?>
                   <li class="catalog__li" data-filter="<?= $value ?>"><a href="all-product.php"><?= $value ?></a></li>
                 <?php endforeach ?>

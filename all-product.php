@@ -12,7 +12,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "prowling lounge chair<br> grape",
-    'link' => "product-armchair-grape.html",
+    'link' => "product-armchair-grape.php",
     'srcset' => "img/2-all-product.webp",
     'type' => "image/webp",
     'img' => "img/2-all-product.png",
