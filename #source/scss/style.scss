@@ -875,13 +875,6 @@ product-page.html
 
   margin-bottom: -20px;
 
-  &-wrapper {
-    padding: 0px 53px;
-
-    @media (max-width:666px) {
-      padding: 0px 13px;
-    }
-  }
 
   @media (max-width:769px),
   (max-height:620px) {
