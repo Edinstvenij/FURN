@@ -3,7 +3,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "prowling lounge chair <br> olive",
-    'link' => "product-armchair-olive.html",
+    'link' => "product-armchair-olive.php",
     'srcset' => "img/1-all-product.webp",
     'type' => "image/webp",
     'img' => "img/1-all-product.png",
@@ -21,7 +21,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "prowling lounge chair <br> mushroom",
-    'link' => "product-armchair-mushroom.html",
+    'link' => "product-armchair-mushroom.php",
     'srcset' => "img/3-all-product.webp",
     'type' => "image/webp",
     'img' => "img/3-all-product.png",
@@ -30,7 +30,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "lurking pouf <br> olive",
-    'link' => "product-puff-olive.html",
+    'link' => "product-puff-olive.php",
     'srcset' => "img/4-all-product.webp",
     'type' => "image/webp",
     'img' => "img/4-all-product.png",
@@ -39,7 +39,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "lurking pouf <br> grape",
-    'link' => "product-puff-grape.html",
+    'link' => "product-puff-grape.php",
     'srcset' => "img/5-all-product.webp",
     'type' => "image/webp",
     'img' => "img/5-all-product.png",
@@ -48,7 +48,7 @@ $product = [
   [
     'filter' => "sitting",
     'name' => "lurking pouf <br> mushroom",
-    'link' => "product-puff-mushroom.html",
+    'link' => "product-puff-mushroom.php",
     'srcset' => "img/6-all-product.webp",
     'type' => "image/webp",
     'img' => "img/6-all-product.png",
