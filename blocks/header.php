@@ -22,16 +22,19 @@ $filters = [
 
 <body>
   <header class="header-all-product
-  <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
+  <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
     echo 'header-product-preview';
   } ?>">
     <div class="container">
       <div class="row row-jcsb row-ai-center">
-        <div class="wrapper-img wrapper-header-all-product-logo animation-turn">
+        <div class="wrapper-img wrapper-header-all-product-logo
+         <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
+            echo 'animation-turn';
+          } ?>">
 
           <a href="/"><img src="img/mini-logo.svg" alt=""></a>
         </div>
-        <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' || $_SERVER['REQUEST_URI'] != '/') { ?>
+        <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') { ?>
           <nav class="catalog">
             <ul class="catalog__ul">
               <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php') { ?>
