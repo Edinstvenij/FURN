@@ -1,4 +1,3 @@
-<div class="header__nav-overlay"></div>
 <nav class="header__nav 
 <?php if ($_SERVER['REQUEST_URI'] != '/' && $_SERVER[''] != 'index.php') {
   echo 'header-all-product__nav';

@@ -21,6 +21,7 @@ $filters = [
 </head>
 
 <body>
+  <div class="header__nav-overlay"></div>
   <header class="header-all-product
   <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
     echo 'header-product-preview';
