@@ -121,7 +121,7 @@ $title = 'FURN'
               <ul>
                 <li class="footer__col-li"><a href="#"><span>Virtual showroom</span></a></li>
                 <li class="footer__col-li"><a href="#"><span>Catalog</span></a></li>
-                <li class="footer__col-li"><a href="#"><span>Shiping</span></a></li>
+                <li class="footer__col-li"><a href="#"><span>Shipping</span></a></li>
                 <li class="footer__col-li"><a href="#"><span>FAQ</span></a></li>
               </ul>
             </nav>
