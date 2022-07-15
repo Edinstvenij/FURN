@@ -76,20 +76,23 @@ require_once 'blocks/header.php' ?>
     </div>
   </div>
 </section>
+
 <section class="product-info">
   <div class="product-info__wrapper">
     <div class="row product-info__row">
       <div class="col product-info__info-col">
-        <h2 class="product-info__info-name">PRODUCT INFORMATION</h2>
+        <h2 class="product-info__info-link">PRODUCT INFORMATION</h2>
         <ul class="product-info__info-ul">
-          <li class="product-info__info-li">SIZE: 800х600 cm</li>
-          <li class="product-info__info-li">BASE COLOR: grey metall</li>
-          <li class="product-info__info-li">BASE MATERIAL: metall</li>
-          <li class="product-info__info-li">HEIGHT: 610 cm</li>
-          <li class="product-info__info-li">wight: 600 cm</li>
-          <li class="product-info__info-li">diametr: 300 cm</li>
+          <li class="product-info__info-li">UPHOLSTERY : stainless steel</li>
+          <li class="product-info__info-li">width: 630 mm</li>
+          <li class="product-info__info-li">depth: 450 mm</li>
+          <li class="product-info__info-li">height: 800 mm</li>
+          <li class="product-info__info-li">worktop: 300 mm</li>
         </ul>
-        <a class="product-info__info-name" href="img/download/LIQUID_TABLE_3D_2D.rar">DOWNLOAD 2D 3D </a>
+        <a class="product-info__info-link" href="#">HOW TO CARE </a>
+        <!-- <a class="product-info__info-link" href="img/download/fabric options.pdf">FABRIC CATALOG</a> -->
+        <a class="product-info__info-link" href="img/download/LIQUID_TABLE_3D_2D.rar">DOWNLOAD 2D 3D</a>
+        <a class="product-info__info-link" href="delivery.php">SHIPPING INFORMATION</a>
       </div>
       <div class="product-info__wrapper-row-img">
         <div class="product-info__wrapper-img ">
@@ -108,37 +111,10 @@ require_once 'blocks/header.php' ?>
     </div>
   </div>
 </section>
-<article class="popup-order">
-  <div class="popup-order__row">
-    <div class="popup-order__wrapper">
-      <form class="popup-order__form">
-        <div class="popup-order__form-item">
-          <input type="hidden" name="form-name" value="Check Price">
-          <input class="popup-order__form-input" id="name" type="text" name="name" placeholder="YOUR NAME" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="email" type="email" name="email" placeholder="YOUR EMAIL" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="tel" type="tel" name="tel" placeholder="YOUR PHONE" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="country" type="text" name="country" placeholder="COUNTRY OF DELIVERY" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="address" type="text" name="address" placeholder="Address of delivery" required>
-        </div>
-        <div class="popup-order__form-item">
-          <textarea class="popup-order__form-input" name="massege" rows="4" placeholder="YOUR COMMENT"></textarea>
-        </div>
 
-
-        <button class="popup-order__form-btn" type="submit">SEND</button>
-      </form>
-    </div>
-    <div class="header__nav-overlay"></div>
-  </div>
-</article>
+<!-- popup order -->
+<?php require_once 'blocks/popup-order.php' ?>
+<!-- END popup order -->
 
 <!-- footer -->
 <?php require_once 'blocks/footer.php' ?>

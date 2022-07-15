@@ -72,17 +72,18 @@ require_once 'blocks/header.php' ?>
   <div class="product-info__wrapper">
     <div class="row product-info__row">
       <div class="col product-info__info-col">
-        <p class="product-info__info-name">PRODUCT INFORMATION</p>
+        <p class="product-info__info-link">PRODUCT INFORMATION</p>
         <ul class="product-info__info-ul">
-          <li class="product-info__info-li">SIZE: 530 x 680 x 740 cm</li>
+          <li class="product-info__info-li">UPHOLSTERY : VELOUR FABRIC</li>
           <li class="product-info__info-li">BASE COLOR: mushroom</li>
-          <li class="product-info__info-li">BASE MATERIAL: textile</li>
-          <li class="product-info__info-li">Height: 530 cm</li>
-          <li class="product-info__info-li">Widht: 680 cm</li>
-          <li class="product-info__info-li">Thickness: 740 cm</li>
+          <li class="product-info__info-li">Height: 530 mm</li>
+          <li class="product-info__info-li">Widht: 940 mm</li>
+          <li class="product-info__info-li">DERTH: 860 mm</li>
         </ul>
-        <a class="product-info__info-name" href="img/download/fabric options.pdf" target="_blank">fabric catalog</a>
-        <a class="product-info__info-name" href="img/download/PROWLING_LOUNGE_CHAIR_3D_2D.rar">DOWNLOAD 2D 3D </a>
+        <a class="product-info__info-link" href="#">HOW TO CARE </a>
+        <a class="product-info__info-link" href="img/download/fabric options.pdf">FABRIC CATALOG</a>
+        <a class="product-info__info-link" href="img/download/LIQUID_TABLE_3D_2D.rar">DOWNLOAD 2D 3D</a>
+        <a class="product-info__info-link" href="delivery.php">SHIPPING INFORMATION</a>
       </div>
       <div class="product-info__wrapper-row-img">
         <div class="product-info__wrapper-img ">
@@ -102,37 +103,9 @@ require_once 'blocks/header.php' ?>
   </div>
 </section>
 
-<article class="popup-order">
-  <div class="popup-order__row">
-    <div class="popup-order__wrapper">
-      <form class="popup-order__form">
-        <div class="popup-order__form-item">
-          <input type="hidden" name="form-name" value="Check Price">
-          <input class="popup-order__form-input" id="name" type="text" name="name" placeholder="YOUR NAME" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="email" type="email" name="email" placeholder="YOUR EMAIL" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="tel" type="tel" name="tel" placeholder="YOUR PHONE" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="country" type="text" name="country" placeholder="COUNTRY OF DELIVERY" required>
-        </div>
-        <div class="popup-order__form-item">
-          <input class="popup-order__form-input" id="address" type="text" name="address" placeholder="Address of delivery" required>
-        </div>
-        <div class="popup-order__form-item">
-          <textarea class="popup-order__form-input" name="massege" rows="4" placeholder="YOUR COMMENT"></textarea>
-        </div>
-
-
-        <button class="popup-order__form-btn" type="submit">SEND</button>
-      </form>
-    </div>
-    <div class="header__nav-overlay"></div>
-  </div>
-</article>
+<!-- popup order -->
+<?php require_once 'blocks/popup-order.php' ?>
+<!-- END popup order -->
 
 <!-- footer -->
 <?php require_once 'blocks/footer.php' ?>

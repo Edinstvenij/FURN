@@ -1040,7 +1040,7 @@ product-page.html
     justify-content: center
   }
 
-  &__info-name {
+  &__info-link {
     @include adaptiv-font(20, 12);
     white-space: nowrap;
     color: inherit;
@@ -1048,7 +1048,6 @@ product-page.html
     margin-bottom: 19px;
 
     &:last-child {
-      margin-top: 6px;
       margin-bottom: 0px;
     }
 
@@ -1057,9 +1056,9 @@ product-page.html
       margin-bottom: 10px;
     }
 
-    @media (max-height: 600px) {
-      font-size: 16px;
-      margin-bottom: 10px;
+    @media (max-height: 640px) {
+      font-size: 20px;
+      margin-bottom: 4px;
     }
 
     @media (max-width: 510px) {
@@ -1074,16 +1073,18 @@ product-page.html
   }
 
   &__info-ul {
+    margin-top: 3px;
     margin-bottom: 30px;
 
-    @media (max-width:630px) {
-      margin-bottom: 14px;
+    @media (max-width:630px),
+    (max-height:640px) {
+      margin-bottom: 10px;
     }
 
   }
 
   &__info-li {
-    @include adaptiv-font(16, 10);
+    @include adaptiv-font(16, 9);
     white-space: nowrap;
     margin-bottom: 10px;
 
@@ -1093,7 +1094,7 @@ product-page.html
 
     @media (max-height: 720px) {
       font-size: 16px;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
     @media (max-height: 600px) {
@@ -1104,7 +1105,7 @@ product-page.html
       font-size: 11px;
     }
 
-    @media (max-width:300px) {
+    @media (max-width:310px) {
       margin-bottom: 2px;
     }
 
