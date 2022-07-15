@@ -77,6 +77,7 @@ require_once 'blocks/header.php' ?>
     </div>
   </div>
 </section>
+
 <section class="product-info" style="background-color: #92779A;">
   <div class="product-info__wrapper">
     <div class="row product-info__row">
