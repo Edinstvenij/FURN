@@ -17,19 +17,11 @@ $slider = [
     'alt' => 'fon',
   ],
   [
-    'srcset_mobile' => 'img/header-2-swiper-mobaile.webp',
-    'type_mobile' => 'image/webp',
-    'srcset_desktop' => 'img/header-2-swiper.webp',
-    'type_desktop' => 'image/webp',
-    'img' => 'img/header-2-swiper.png',
-    'alt' => 'fon',
-  ],
-  [
     'srcset_mobile' => 'img/header-3-swiper-mobaile.webp',
     'type_mobile' => 'image/webp',
     'srcset_desktop' => 'img/header-3-swiper.webp',
     'type_desktop' => 'image/webp',
-    'img' => 'img/header-3-swiper.jpg',
+    'img' => 'img/header-3-swiper.png',
     'alt' => 'fon',
   ],
   [
@@ -45,7 +37,7 @@ $slider = [
     'type_mobile' => 'image/webp',
     'srcset_desktop' => 'img/header-5-swiper.webp',
     'type_desktop' => 'image/webp',
-    'img' => 'img/header-5-swiper.png',
+    'img' => 'img/header-5-swiper.jpg',
     'alt' => 'fon',
   ],
 ];
