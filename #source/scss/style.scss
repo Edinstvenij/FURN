@@ -1435,6 +1435,10 @@ product-page.html
 
     background: #000;
     color: #FFFFFF;
+
+    @media (max-width:768px) {
+      width: 100%;
+    }
   }
 }
 
