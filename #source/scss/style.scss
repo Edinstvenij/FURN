@@ -87,29 +87,43 @@ body {
 
     transition: width 0.7s;
 
-    &.active {
-      width: 100%;
+    @media (max-width:768px) {
+      width: 100vw;
 
-      .header__body {
-        width: 60%;
-      }
-
-      .slider {
-        width: 60%;
-      }
-
-      .header__burger {
-        transform: translateX(600px);
-      }
-
-      .header__nav-close {
-        transform: rotate(0deg);
-      }
-
-      .header__nav-li {
-        transform: translateX(0px);
+      &.active {
+        .header__nav {
+          top: 0;
+        }
       }
     }
+
+    @media (min-width:768px) {
+      &.active {
+        width: 100%;
+
+        .header__body {
+          width: 60%;
+        }
+
+        .slider {
+          width: 60%;
+        }
+
+        .header__burger {
+          transform: translateX(600px);
+        }
+
+        .header__nav-close {
+          transform: rotate(0deg);
+        }
+
+        .header__nav-li {
+          transform: translateX(0px);
+        }
+      }
+    }
+
+
   }
 
   //Блок конткнта
@@ -221,7 +235,13 @@ body {
     background: #0038FF;
 
     // transform: translateX(100%);
-    transition: transform 0.8s, right 0.6s;
+    transition: transform 0.8s, right 0.6s, top 0.6s;
+
+    @media (max-width:768px) {
+      position: absolute;
+      width: 100vw;
+      top: -100vh;
+    }
 
     &.active {
       transform: translateX(0);
@@ -277,8 +297,8 @@ body {
     display: block;
     position: absolute;
     z-index: 13;
-    top: 80px;
-    right: 75px;
+    top: 29px;
+    right: 29px;
 
     width: 40px;
     height: 40px;
@@ -422,9 +442,8 @@ body {
     width: 60px;
     margin-right: 36px;
 
-    @media(max-width:400px) {
-      width: 40px;
-      margin-right: 10px;
+    @media(max-width:768px) {
+      display: none;
     }
   }
 
@@ -470,7 +489,19 @@ body {
   background: #0038FF;
   color: #FFD704;
 
-  &__col-nav {
+  &__wrapper {
+    @media(max-width:768px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__row-social-and-prod {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col-social {
 
     @media (max-width: 370px),
     (max-height: 540px) {
@@ -570,6 +601,14 @@ body {
 
 //Форма отправки смс
 .form {
+  &__wrapper {
+    @media(max-width: 768px) {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
   &__col {
     margin-right: 20px;
   }
@@ -617,12 +656,18 @@ body {
   }
 
   &-row {
-    @media(max-width:427px) {
+    @media(max-width:768px) {
       flex-direction: column;
 
       .form__col {
         margin: 0px;
       }
+    }
+  }
+
+  &__label {
+    @media(max-width:768px) {
+      display: none;
     }
   }
 
@@ -667,8 +712,9 @@ body {
     text-align: justify;
     margin-bottom: 83px;
 
-    @media (max-width: 770px),
+    @media (max-width: 768px),
     (max-height: 665px) {
+      font-weight: 700;
       margin-bottom: 30px;
     }
   }

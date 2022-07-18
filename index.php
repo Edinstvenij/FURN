@@ -114,7 +114,7 @@ $title = 'FURN'
   <footer class="footer">
     <div class="container container-fix">
       <div class="footer__wrapper">
-        <div class="row row-jcsb">
+        <div class="footer__row-social-and-prod">
           <div class="col">
             <h2 class="footer__col-name">Product</h2>
             <nav class="footer__col-nav">
@@ -132,7 +132,7 @@ $title = 'FURN'
                 <img src="img/footer-logo.webp" alt="">
               </div>
               <div class="col">
-                <nav class="footer__col-nav">
+                <div class="footer__col-social">
                   <ul>
                     <li class="footer__col-li"><a href="https://www.instagram.com/furn_manufacture/" target="_blank"><span>instagram</span></a></li>
                     <li class="footer__col-li"><a href="https://www.behance.net/furnmanufacture" target="_blank"><span>Behance</span></a></li>
@@ -140,7 +140,7 @@ $title = 'FURN'
                     <li class="footer__col-li"><a href="#"><span>Whatsapp</span></a></li>
                     <li class="footer__col-li"><a href="#"><span>Telegram</span></a></li>
                   </ul>
-                </nav>
+                </div>
               </div>
             </div>
           </div>
@@ -160,16 +160,16 @@ $title = 'FURN'
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col form__wrapper">
             <form class="form">
               <div class="row row-jcsb form-row">
                 <div class="col form__col">
                   <input name="form-name" type="hidden" value="user contacts">
-                  <label for="user-email" class="footer__col-name form__input-name">Your email</label>
+                  <label class="form__label footer__col-name form__input-name" for="user-email">Your email</label>
                   <input class="form__input" id="user-email" type="email" name="email" placeholder="mail@example.com" required>
                 </div>
                 <div class="col">
-                  <label for="user-name" class="footer__col-name form__input-name">Your name</label>
+                  <label class="form__label footer__col-name form__input-name" for="user-name">Your name</label>
                   <input title="" class="form__input" id="user-name" type="text" name="name" placeholder="John Smith" minlength="2" maxlength="20" required>
                 </div>
               </div>
@@ -181,8 +181,8 @@ $title = 'FURN'
             </p>
           </div>
         </div>
-        <p class="copyright"><?= '&#169;' . ' ' . date('Y') ?> Furn. All rights reserved.</p>
       </div>
+      <p class="copyright"><?= '&#169;' . ' ' . date('Y') ?> Furn. All rights reserved.</p>
     </div>
   </footer>
 
