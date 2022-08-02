@@ -48,10 +48,12 @@ $filters = [
                 <?php endforeach ?>
               <?php } ?>
             </ul>
-            <span class="header__open-close header-all-product__nav-open"></span>
+            <p class="header__burger menu-toggle"><a href="#top">MENU+</a></p>
+            <!-- <span class="menu__button menu-toggle"></span> -->
           </nav>
         <?php } else { ?>
-          <span class="header__open-close header-all-product__nav-open"></span>
+          <p class="header__burger menu-toggle"><a href="#top">MENU+</a></p>
+          <!-- <span class="menu__button menu-toggle"></span> -->
         <?php } ?>
       </div>
     </div>
