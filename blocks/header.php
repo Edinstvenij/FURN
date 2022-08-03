@@ -1,8 +1,8 @@
 <?php
 $filters = [
-  'all',
   'table',
   'sitting',
+  'all',
 ];
 ?>
 
@@ -27,7 +27,7 @@ $filters = [
     echo 'header-product-preview';
   } ?>">
     <div class="container">
-      <div class="row row-jcsb row-ai-center">
+      <div class="row header-all-product__row">
         <div class="wrapper-img wrapper-header-all-product-logo
          <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
             echo 'animation-turn';
@@ -48,12 +48,16 @@ $filters = [
                 <?php endforeach ?>
               <?php } ?>
             </ul>
-            <p class="header__burger menu-toggle"><a href="#top">MENU+</a></p>
-            <!-- <span class="menu__button menu-toggle"></span> -->
           </nav>
+          <div class="header__burger header__burger-top menu-toggle">
+            <span class="header__burger-desctop"><a href="#top">MENU+</a></span>
+            <span class="header__burger-mobail header__burger-mobail-top"><a href="#top"></a></span>
+          </div>
         <?php } else { ?>
-          <p class="header__burger menu-toggle"><a href="#top">MENU+</a></p>
-          <!-- <span class="menu__button menu-toggle"></span> -->
+          <div class="header__burger header__burger-top menu-toggle">
+            <span class="header__burger-desctop"><a href="#top">MENU+</a></span>
+            <span class="header__burger-mobail header__burger-mobail-top"><a href="#top"></a></span>
+          </div>
         <?php } ?>
       </div>
     </div>
