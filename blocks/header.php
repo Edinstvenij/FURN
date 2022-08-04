@@ -40,21 +40,21 @@ $filters = [
             <ul class="catalog__ul">
               <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php') { ?>
                 <?php foreach ($filters as $value) : ?>
-                  <li class="catalog__li" data-filter="<?= $value ?>"><a href="all-product.php"><?= $value ?></a></li>
+                  <li class="catalog__li <?= $value == 'all' ? "active" : '' ?>" data-filter="<?= $value ?>"><a href="all-product.php"><?= $value ?></a></li>
                 <?php endforeach ?>
               <?php } else { ?>
                 <?php foreach ($filters as $value) : ?>
-                  <li class="catalog__li" data-filter="<?= $value ?>"><?= $value ?></li>
+                  <li class="catalog__li <?= $value == 'all' ? "active" : '' ?>" data-filter="<?= $value ?>"><?= $value ?></li>
                 <?php endforeach ?>
               <?php } ?>
             </ul>
           </nav>
-          <div class="header__burger header__burger-top menu-toggle">
+          <div class="header__burger header__burger-right menu-toggle">
             <span class="header__burger-desctop"><a href="#top">MENU+</a></span>
             <span class="header__burger-mobail header__burger-mobail-top"><a href="#top"></a></span>
           </div>
         <?php } else { ?>
-          <div class="header__burger header__burger-top menu-toggle">
+          <div class="header__burger header__burger-right menu-toggle">
             <span class="header__burger-desctop"><a href="#top">MENU+</a></span>
             <span class="header__burger-mobail header__burger-mobail-top"><a href="#top"></a></span>
           </div>
