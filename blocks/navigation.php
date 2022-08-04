@@ -2,7 +2,7 @@
   <div class="content">
     <div class="row row-jcsb row-ai-center">
       <div class="wrapper-img wrapper-header-all-product-logo"><a href="/"><img src="img/mini-logo.svg" alt=""></a></div>
-      <span class="menu__button menu-toggle"></span>
+      <span class="menu-toggle menu__button" id="buttonInMenu"></span>
     </div>
     <div class="menu__body">
       <div class="row row-jcsb nav__row">

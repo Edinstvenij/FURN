@@ -2,18 +2,18 @@
 $(document).ready(function () {
   $('.menu-toggle').click(function (event) {
     $('.popup-order').removeClass('active');
+    $('body').removeClass('lock');
 
     $('.menu , .menu__button').toggleClass('active');
     $('body').addClass('lock');
   });
 
-  $('.header__nav-overlay').click(function (event) {
-    $('.header__wrapper , .header-all-product__nav').removeClass('active');
+  $('.popup-order__row').click(function (event) {
+    $('.popup-order').removeClass('active');
     $('body').removeClass('lock');
   });
-
-  $('.header__nav-close').click(function (event) {
-    $('.header__wrapper , .header-all-product__nav').removeClass('active');
+  $('#buttonInMenu').click(function (event) {
+    $('.popup-order').removeClass('active');
     $('body').removeClass('lock');
   });
 });
