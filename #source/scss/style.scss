@@ -1074,6 +1074,7 @@ product-page.html
     color: inherit;
 
     margin-bottom: 16px;
+    transition: opacity 0.2s;
 
     &:first-child {
       opacity: 0.5;
@@ -1081,6 +1082,11 @@ product-page.html
 
     &:last-child {
       margin-bottom: 0px;
+    }
+
+    &:hover {
+      opacity: 0.5;
+      font-style: italic;
     }
 
     @media (max-height: 720px) {
