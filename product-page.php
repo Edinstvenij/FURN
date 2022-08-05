@@ -101,12 +101,6 @@ require_once 'blocks/header.php' ?>
             <img src="img/product/1-info-product-noize-table.png" alt="">
           </picture>
         </div>
-        <div class="product-info__wrapper-img">
-          <picture>
-            <source srcset="img/product/2-info-product-noize-table.webp" type="image/webp">
-            <img src="img/product/2-info-product-noize-table.png" alt="">
-          </picture>
-        </div>
       </div>
     </div>
   </div>

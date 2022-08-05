@@ -89,7 +89,7 @@ $title = 'FURN'
           <div class="header__logo wrapper-img wrapper-header-logo">
             <img src="img/logo.svg" alt="logo">
           </div>
-          <div class="header__burger menu-toggle">
+          <div class="header__burger header__burger-main menu-toggle">
             <span class="header__burger-desctop"><a href="#top">MENU+</a></span>
             <span class="header__burger-mobail"><a href="#top"></a></span>
           </div>

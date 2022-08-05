@@ -159,7 +159,19 @@ body {
   }
 
   &__burger-right {
-    right: -20px;
+    right: -10px;
+  }
+
+  &__burger-main {
+    top: 28px;
+
+    @media (max-width:767px) {
+      top: 15px;
+    }
+
+    @media (max-width:470px) {
+      top: 7px;
+    }
   }
 
   &__burger-desctop {
@@ -753,6 +765,8 @@ all-product.html
 }
 
 .grid {
+  padding: 0px 30px;
+
   &__body {
     display: grid;
 
@@ -859,7 +873,7 @@ product-page.html
       position: relative;
       z-index: 30;
 
-      @media (max-width:761px) {
+      @media (max-width:767px) {
         height: 75%;
       }
     }
@@ -876,7 +890,7 @@ product-page.html
         height: 100%;
       }
 
-      @media (max-width:761px) {
+      @media (max-width:767px) {
         width: 90%;
 
       }
@@ -894,9 +908,11 @@ product-page.html
 
     &-button-next,
     &-button-prev {
+      width: 266px;
       position: absolute;
       z-index: 31;
-      padding: 90px 53px 0px;
+      padding: 50px 33px 0px;
+      margin-bottom: -2px;
 
       cursor: pointer;
 
@@ -941,7 +957,7 @@ product-page.html
         right: 13px;
       }
 
-      @media (max-width:761px) {
+      @media (max-width:767px) {
         position: relative;
         top: 20px;
         right: 0;
@@ -956,7 +972,7 @@ product-page.html
       flex-direction: column;
       align-items: end;
 
-      @media (max-width:761px) {
+      @media (max-width:767px) {
         align-items: center;
       }
 
@@ -965,12 +981,26 @@ product-page.html
     &-product-name {
       @include adaptiv-font(26, 13);
       margin-bottom: 26px;
-      max-width: 250px;
+
       text-align: end;
 
-      @media (max-width:761px) {
+      @media (min-width:768px) {
+        width: 150px;
+      }
+
+      @media (min-width:900px) {
+        width: 200px;
+      }
+
+      @media (min-width:1000px) {
+        width: 250px;
+      }
+
+
+      @media (max-width:767px) {
         text-align: center;
         margin-bottom: 16px;
+        width: auto;
       }
 
       @media (max-width:461px) {
@@ -981,7 +1011,7 @@ product-page.html
 
     &-product-order-button {
       @include adaptiv-font(16, 11);
-      padding: 9px 24px;
+      padding: 7px 10px;
 
       color: #FFFFFF;
       background: #676767;
@@ -1005,7 +1035,7 @@ product-page.html
   display: flex;
   align-items: center;
 
-  padding: 5px 38px;
+  padding: 15px 38px;
   background: #676767;
   height: 47.5%;
 
@@ -1039,10 +1069,15 @@ product-page.html
 
   &__info-link {
     @include adaptiv-font(20, 12);
+    font-weight: 700;
     white-space: nowrap;
     color: inherit;
 
-    margin-bottom: 19px;
+    margin-bottom: 16px;
+
+    &:first-child {
+      opacity: 0.5;
+    }
 
     &:last-child {
       margin-bottom: 0px;
@@ -1055,7 +1090,7 @@ product-page.html
 
     @media (max-height: 640px) {
       font-size: 20px;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
     }
 
     @media (max-width: 510px) {
@@ -1070,8 +1105,8 @@ product-page.html
   }
 
   &__info-ul {
-    margin-top: 3px;
-    margin-bottom: 30px;
+    margin-top: 13px;
+    margin-bottom: 27px;
 
     @media (max-width:630px),
     (max-height:640px) {
@@ -1084,6 +1119,8 @@ product-page.html
     @include adaptiv-font(16, 9);
     white-space: nowrap;
     margin-bottom: 10px;
+
+    opacity: 0.5;
 
     &:last-child {
       margin-bottom: 0px;
@@ -1130,28 +1167,6 @@ product-page.html
     @media (max-height:610px) {
       max-width: 200px;
     }
-
-
-    &:first-child {
-      margin-right: 120px;
-      margin-left: 30px;
-
-
-      @media (min-width:1270px) {
-        margin-right: 320px;
-      }
-
-      @media (max-width:860px) {
-        margin-right: 60px;
-        margin-left: 40px;
-      }
-
-      @media (max-width:760px) {
-        margin-right: 20px;
-        margin-left: 10px;
-      }
-    }
-
 
     img {
       object-fit: contain;
