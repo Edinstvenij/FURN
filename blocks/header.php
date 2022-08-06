@@ -23,19 +23,19 @@ $filters = [
 <body>
   <div class="header__nav-overlay"></div>
   <header class="header-all-product
-  <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
+  <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/' && $_SERVER['REQUEST_URI'] != '/contact.php') {
     echo 'header-product-preview';
   } ?>">
     <div class="container">
       <div class="row header-all-product__row">
         <div class="wrapper-img wrapper-header-all-product-logo
-         <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') {
+         <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php' && $_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/' && $_SERVER['REQUEST_URI'] != '/contact.php') {
             echo 'animation-turn';
           } ?>">
 
           <a href="/"><img src="img/mini-logo.svg" alt=""></a>
         </div>
-        <?php if ($_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/') { ?>
+        <?php if ($_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/' && $_SERVER['REQUEST_URI'] != '/contact.php') { ?>
           <nav class="catalog">
             <ul class="catalog__ul">
               <?php if ($_SERVER['REQUEST_URI'] != '/all-product.php') { ?>
