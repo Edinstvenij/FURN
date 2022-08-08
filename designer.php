@@ -6,6 +6,17 @@ require_once 'blocks/header.php' ?>
 
 <!-- main -->
 <main id="top" class="wrapper-container-designer">
+  <section class="about">
+    <div class="about__text">
+      <h1 class="designer__title">HI!<br>WE ARE FÜRN</h1>
+      <div class="designer__subtitle">
+        <p>And we are happy to present to you our designer products.</p>
+        <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
+        <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>
+        <p>Get to know ukraine through people, through their work, and they will not leave you indifferent.</p>
+      </div>
+    </div>
+  </section>
   <section class="designer">
     <div class="designer__wrapper">
       <div class="wrapper-img designer__wrapper-item">
@@ -17,12 +28,13 @@ require_once 'blocks/header.php' ?>
         <div class="designer__description">
           <div class="designer__description-background"></div>
           <div class="designer__text">
-            <h2 class="designer__title">ANNA BAiERZDORF</h2>
+            <h2 class="designer__title">ANNA BAIERZDORF</h2>
             <div class="designer__subtitle">
-              <p>And we are happy to present to you our designer products.</p>
-              <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
-              <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>
-              <p>Get to know ukraine through people, through their work, and they will not leave you indifferent.</p>
+              <p>
+                FURN co-founder, chief designer
+                Anna loves to experiment with techniques and materials, each time finding new combinations of shapes and textures, which gives her creations a special character.
+                She was educated at the Odessa State Academy of Building and Architecture, after that she continued her studies at Politecnico di Milano where she studied product design. In the course of her work in the field of interior design, Anna often designed individual objects for her projects, and one day it grew into the idea to create an exclusive furniture brand.
+              </p>
             </div>
           </div>
         </div>
@@ -37,29 +49,20 @@ require_once 'blocks/header.php' ?>
         <div class="designer__description">
           <div class="designer__description-background"></div>
           <div class="designer__text">
-            <h2 class="designer__title">SERGEY BAiERZDORF</h2>
+            <h2 class="designer__title">SERGEY BAIERZDORF</h2>
             <div class="designer__subtitle">
-              <p>And we are happy to present to you our designer products.</p>
-              <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
-              <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>
-              <p>Get to know ukraine through people, through their work, and they will not leave you indifferent.</p>
+              <p>
+                FURN co-founder, designer, SEO.
+                Sergey in his works prefers laconic forms, considering the play of complex knots and details as the basis of aesthetics.
+                He was educated at the Odessa State Academy of Building and Architecture.
+                He started his career in interior design and architectural design. In the process of creative activity, he discovered the sphere of product design.
+              </p>
             </div>
           </div>
         </div>
 
       </div>
 
-    </div>
-  </section>
-  <section class="about">
-    <div class="about__text">
-      <h1 class="designer__title">HI!<br>WE ARE FÜRN</h1>
-      <div class="designer__subtitle">
-        <p>And we are happy to present to you our designer products.</p>
-        <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
-        <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>
-        <p>Get to know ukraine through people, through their work, and they will not leave you indifferent.</p>
-      </div>
     </div>
   </section>
 </main>

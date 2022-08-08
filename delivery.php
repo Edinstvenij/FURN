@@ -4,9 +4,8 @@ $title = 'Delivery';
 require_once 'blocks/header.php' ?>
 <!-- END header -->
 
-<section class="delivery">
-  <div class="container">
-    <h1 class="delivery__page-name">Delivery & Returns</h1>
+<div class="container">
+  <section class="delivery">
     <div class="delivery__item">
       <h4 class="delivery__title">Information about delivery</h4>
       <div class="delivery__text">
@@ -43,8 +42,8 @@ require_once 'blocks/header.php' ?>
         <p>We want our customers to receive high-quality products. If something is wrong with the product that was delivered to you or it does not match your order, write to the mail: <a href="mailto:furn.in.touch@gmail.com">furn.in.touch@gmail.com</a></p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 
 <!-- footer -->
 <?php require_once 'blocks/footer.php' ?>

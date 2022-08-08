@@ -61,14 +61,14 @@ require_once 'blocks/header.php' ?>
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
           <p class="product-preview__slider-product-name">prowling lounge chair grape</p>
-          <button class="product-preview__slider-product-order-button" style="background-color: #92779A;">Check
+          <button class="product-preview__slider-product-order-button" style="background-color: #8D7998;">Check
             price</button>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="product-info" style="background-color: #92779A;">
+<section class="product-info" style="background-color: #8D7998;">
   <div class="product-info__wrapper">
     <div class="row product-info__row">
       <div class="col product-info__info-col">
