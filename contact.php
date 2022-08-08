@@ -16,19 +16,13 @@ require_once 'blocks/header.php' ?>
       </div>
       <div class="col contact__col">
         <p class="contact__title">Enter your e-mail to be the first to know about our new products!</p>
-        <form class="form">
-          <div class="row row-jcsb form-row">
-            <div class="col form__col">
-              <input name="form-name" type="hidden" value="user contacts">
-              <label class="form__label footer__col-name form__input-name" for="user-email">Your email</label>
-              <input class="form__input" id="user-email" type="email" name="email" placeholder="mail@example.com" required>
-            </div>
-            <div class="col">
-              <label class="form__label footer__col-name form__input-name" for="user-name">Your name</label>
-              <input title="" class="form__input" id="user-name" type="text" name="name" placeholder="John Smith" minlength="2" maxlength="20" required>
-            </div>
+        <form class="form" action="telegram.php" method="POST">
+          <div class="col form__col">
+            <input name="form-name" type="hidden" value="Form contact page">
+            <input title="" class="form__input" id="user-name" type="text" name="name" placeholder="YOUR NAME" minlength="2" maxlength="20" required>
+            <input class="form__input" id="user-email" type="email" name="email" placeholder="YOUR EMAIL" required>
+            <button id="tg-form-btn" class="form__button" type="submit">SUBMIT</button>
           </div>
-          <button id="tg-form-btn" class="form__button" type="submit">SUBMIT</button>
         </form>
       </div>
     </div>

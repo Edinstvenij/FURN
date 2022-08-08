@@ -693,7 +693,7 @@ body {
 
 
 .copyright {
-  @include adaptiv-font(12, 10);
+  font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1199,6 +1199,18 @@ product-page.html
 
 
 //popup
+.header__nav-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  &.active {
+    display: block;
+  }
+}
 
 .popup-order {
   overflow-x: hidden;
@@ -1344,9 +1356,17 @@ product-page.html
 // contact page
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
   padding: 0px 40px;
 
-  &__row {}
+  &__row {
+
+    &:first-child {
+      flex: 1 0 100%;
+    }
+  }
 
   &__col {
     max-width: 528px;
@@ -1370,11 +1390,11 @@ product-page.html
     & a {
       color: inherit;
 
-      transition: color 0.2s;
+      transition: opacity 0.2s;
 
       &:hover,
       &:focus {
-        color: #0038FF;
+        opacity: 0.5;
       }
     }
   }
@@ -1387,25 +1407,53 @@ product-page.html
   &__socila-ul {}
 
   &__socila-li {
+    @include adaptiv-font(20, 11);
     color: #000000;
 
     a {
       color: inherit;
+
+      transition: opacity 0.4s;
+
+      &:hover {
+        opacity: 0.5;
+        color: inherit;
+      }
     }
   }
 }
 
 .form {
-
   &__col {}
 
-  &__label {}
+  &__input {
+    padding: 15px 11px;
 
-  &__input-name {}
+    width: 100%;
+    border: 1px solid #C9C9C9;
 
-  &__input {}
+    margin-bottom: 40px;
 
-  &__button {}
+    &:last-child {
+      margin-bottom: 33px;
+    }
+
+    &::placeholder {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #C9C9C9;
+    }
+  }
+
+  &__button {
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 14px 0px;
+
+    background: #000;
+    color: #FFFFFF;
+  }
 }
 
 

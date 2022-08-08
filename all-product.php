@@ -56,7 +56,7 @@ $product = [
   ],
   [
     'filter' => "table",
-    'name' => "iquid table",
+    'name' => "LIQUID TABLE",
     'link' => "product-page.php",
     'srcset' => "img/7-all-product.webp",
     'type' => "image/webp",

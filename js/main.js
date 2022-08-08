@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('body').addClass('lock');
   });
 
-  $('.popup-order__row').click(function (event) {
+  $('.header__nav-overlay').click(function (event) {
     $('.popup-order').removeClass('active');
     $('body').removeClass('lock');
   });
@@ -93,10 +93,13 @@ $(document).ready(function () {
   $('.product-preview__slider-product-order-button').click(function (event) {
     $('.popup-order').toggleClass('active');
     $('body').toggleClass('lock');
+    $('.header__nav-overlay').toggleClass('active');
   });
   $('.header__nav-overlay').click(function (event) {
     $('.popup-order').removeClass('active');
     $('body').removeClass('lock');
+    $('.header__nav-overlay').removeClass('active');
+
   });
 });
 //  END POPUP-order
