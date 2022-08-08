@@ -440,25 +440,14 @@ body {
   }
 
   &::after {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
   }
 
   &::before {
-    transform: rotate(-90deg);
+    transform: rotate(-45deg);
   }
 
   &.active:hover {
-    &::after {
-      transform: rotate(45deg);
-    }
-
-    &::before {
-      transform: rotate(-45deg);
-    }
-
-  }
-
-  &.active {
     &::after {
       transform: rotate(15deg);
     }
@@ -466,6 +455,7 @@ body {
     &::before {
       transform: rotate(-15deg);
     }
+
   }
 }
 
