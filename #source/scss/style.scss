@@ -1389,7 +1389,6 @@ product-page.html
 
 
   &__row {
-    margin-top: 14px;
 
     &:first-child {
       flex: 1 0 100%;
@@ -1398,6 +1397,7 @@ product-page.html
     @media(max-width: 1024px) {
       flex-direction: column;
       justify-content: center;
+      margin-top: 14px;
     }
   }
 
