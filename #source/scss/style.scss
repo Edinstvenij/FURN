@@ -1397,7 +1397,6 @@ product-page.html
     @media(max-width: 1024px) {
       flex-direction: column;
       justify-content: center;
-      margin-top: 14px;
     }
   }
 
@@ -1455,6 +1454,7 @@ product-page.html
   &__socila-ul {
     @media(max-width: 1024px) {
       justify-content: center;
+      margin-top: 14px;
     }
 
     @media(max-width: 570px) {
