@@ -1384,6 +1384,7 @@ product-page.html
   padding: 0px 40px;
 
   @media(max-width: 570px) {
+    height: 65vh;
     padding: 0px;
   }
 
@@ -1397,6 +1398,10 @@ product-page.html
     @media(max-width: 1024px) {
       flex-direction: column;
       justify-content: center;
+    }
+
+    @media(max-width: 570px) {
+      justify-content: start;
     }
   }
 
