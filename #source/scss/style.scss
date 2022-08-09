@@ -66,12 +66,19 @@ body {
 
 .container {
   position: relative;
-  max-width: #{$maxWidth + px};
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px 80px;
 
   &-fix {
     width: #{$maxWidth + px};
+  }
+
+  @media(max-width:900px) {
+    padding: 0px 30px;
+  }
+
+  @media(max-width:767px) {
+    padding: 0px 20px;
   }
 }
 
@@ -103,7 +110,8 @@ body {
     position: absolute;
     top: 6px;
     right: 57px;
-    font-size: 14px;
+    @include adaptiv-font(16, 11);
+    // font-size: 14px;
     font-weight: 600;
 
     cursor: pointer;
@@ -146,6 +154,10 @@ body {
     // END [Menu]
 
 
+    @media(max-width:1000px) {
+      @include adaptiv-font(14, 9);
+    }
+
     @media(max-width:470px) {
       right: 20px;
       padding: 5px 10px;
@@ -160,7 +172,7 @@ body {
   }
 
   &__burger-right {
-    right: -10px;
+    right: -20px;
   }
 
   &__burger-main {
@@ -716,13 +728,18 @@ all-product.html
   margin-left: 35px;
   display: flex;
 
+  @media(max-width:700px) {
+    margin-left: 10px;
+  }
+
   &__ul {
     display: flex;
     align-items: center;
   }
 
   &__li {
-    font-size: 14px;
+    @include adaptiv-font(16, 9);
+    // font-size: 14px;
     width: 100%;
     padding: 5px 15px 5px 15px;
     opacity: 0.5;
@@ -743,6 +760,10 @@ all-product.html
     &.active {
       opacity: 1;
       font-style: italic;
+    }
+
+    @media (max-width:1000px) {
+      @include adaptiv-font(12, 9);
     }
 
     @media (max-width:580px) {
@@ -826,6 +847,10 @@ all-product.html
     @media (min-width:1930px) {
       font-size: 55px;
     }
+  }
+
+  @media(max-width:400px) {
+    padding: 0;
   }
 }
 
@@ -953,7 +978,7 @@ product-page.html
       z-index: 201;
       top: 50%;
       transform: translatey(-50%);
-      right: 53px;
+      right: 60px;
 
       text-transform: uppercase;
 
@@ -1080,7 +1105,7 @@ product-page.html
   }
 
   &__info-link {
-    @include adaptiv-font(20, 12);
+    @include adaptiv-font(30, 12); // 20
     font-weight: 700;
     white-space: nowrap;
     color: inherit;
@@ -1137,7 +1162,7 @@ product-page.html
   }
 
   &__info-li {
-    @include adaptiv-font(16, 9);
+    @include adaptiv-font(20, 9); // 20
     white-space: nowrap;
     margin-bottom: 10px;
 
