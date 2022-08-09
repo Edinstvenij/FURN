@@ -754,14 +754,14 @@ all-product.html
     cursor: pointer;
 
     text-transform: uppercase;
-    transition: letter-spacing 0.4s;
+    transition: opacity 0.2s;
 
     a {
       color: inherit;
     }
 
     &:hover {
-      letter-spacing: 2px;
+      opacity: 0.7;
     }
 
     &.active {
