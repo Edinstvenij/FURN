@@ -1383,21 +1383,41 @@ product-page.html
   height: 75vh;
   padding: 0px 40px;
 
+  @media(max-width: 570px) {
+    padding: 0px;
+  }
+
+
   &__row {
 
     &:first-child {
       flex: 1 0 100%;
     }
+
+    @media(max-width: 1024px) {
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 
   &__col {
     max-width: 528px;
+
+    @media(max-width: 1024px) {
+      max-width: 100%;
+    }
   }
 
   &__title {
     @include adaptiv-font(28, 14);
     font-weight: 700;
     margin-bottom: 80px;
+
+    @media(max-width: 570px) {
+      margin-bottom: 30px;
+
+    }
+
   }
 
   &__site {
@@ -1408,6 +1428,11 @@ product-page.html
 
   &__links {
     margin-top: 14px;
+
+    @media(max-width: 570px) {
+      margin-bottom: 20px;
+    }
+
 
     & a {
       color: inherit;
@@ -1426,7 +1451,16 @@ product-page.html
     color: #000;
   }
 
-  &__socila-ul {}
+  &__socila-ul {
+    @media(max-width: 1024px) {
+      justify-content: center;
+    }
+
+    @media(max-width: 570px) {
+      flex-wrap: wrap;
+    }
+
+  }
 
   &__socila-li {
     @include adaptiv-font(20, 11);
@@ -1442,6 +1476,11 @@ product-page.html
         color: inherit;
       }
     }
+
+    @media(max-width: 570px) {
+      margin-bottom: 7px;
+    }
+
   }
 }
 
@@ -1465,6 +1504,10 @@ product-page.html
       text-transform: uppercase;
       color: #C9C9C9;
     }
+
+    @media(max-width: 570px) {
+      padding: 10px 11px;
+    }
   }
 
   &__button {
@@ -1475,6 +1518,15 @@ product-page.html
 
     background: #000;
     color: #FFFFFF;
+
+    @media(max-width: 1024px) {
+      width: 75%;
+    }
+
+    @media(max-width: 570px) {
+      padding: 10px 0px 9px;
+    }
+
   }
 }
 
