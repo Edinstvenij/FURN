@@ -816,6 +816,14 @@ all-product.html
 .grid {
   padding: 0px 60px;
 
+  @media (max-width:767px) {
+    padding: 0px;
+
+    .grid__body {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   &__body {
     display: grid;
 
@@ -828,9 +836,6 @@ all-product.html
 
     align-items: center;
 
-    @media (max-width:767px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
   }
 
   &__item {
