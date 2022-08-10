@@ -8,8 +8,8 @@ require_once 'blocks/header.php' ?>
 <main id="top" class="wrapper-container-designer">
   <section class="about">
     <div class="about__text">
-      <h1 class="designer__title">HI!<br>WE ARE FÜRN</h1>
-      <div class="designer__subtitle">
+      <h1 class="designer__title designer__title-about">HI! WE ARE FÜRN</h1>
+      <div class="designer__subtitle designer__subtitle-noFirst">
         <p>And we are happy to present to you our designer products.</p>
         <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
         <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>
@@ -29,12 +29,11 @@ require_once 'blocks/header.php' ?>
           <div class="designer__description-background"></div>
           <div class="designer__text">
             <h2 class="designer__title">ANNA BAIERZDORF</h2>
+            <p class="designer__title designer__title-subtitle">FURN co-founder, chief designer</p>
             <div class="designer__subtitle">
-              <p>
-                FURN co-founder, chief designer
-                Anna loves to experiment with techniques and materials, each time finding new combinations of shapes and textures, which gives her creations a special character.
-                She was educated at the Odessa State Academy of Building and Architecture, after that she continued her studies at Politecnico di Milano where she studied product design. In the course of her work in the field of interior design, Anna often designed individual objects for her projects, and one day it grew into the idea to create an exclusive furniture brand.
+              <p>Anna loves to experiment with techniques and materials, each time finding new combinations of shapes and textures, which gives her creations a special character.
               </p>
+              <p>She was educated at the Odessa State Academy of Building and Architecture, after that she continued her studies at Politecnico di Milano where she studied product design. In the course of her work in the field of interior design, Anna often designed individual objects for her projects, and one day it grew into the idea to create an exclusive furniture brand.</p>
             </div>
           </div>
         </div>
@@ -50,13 +49,12 @@ require_once 'blocks/header.php' ?>
           <div class="designer__description-background"></div>
           <div class="designer__text">
             <h2 class="designer__title">SERGEY BAIERZDORF</h2>
+            <p class="designer__title designer__title-subtitle">FURN co-founder, designer, SEO.</p>
             <div class="designer__subtitle">
-              <p>
-                FURN co-founder, designer, SEO.
-                Sergey in his works prefers laconic forms, considering the play of complex knots and details as the basis of aesthetics.
-                He was educated at the Odessa State Academy of Building and Architecture.
-                He started his career in interior design and architectural design. In the process of creative activity, he discovered the sphere of product design.
+              <p>Sergey in his works prefers laconic forms, considering the play of complex knots and details as the basis of aesthetics.
               </p>
+              <p>He was educated at the Odessa State Academy of Building and Architecture. </p>
+              <p>He started his career in interior design and architectural design. In the process of creative activity, he discovered the sphere of product design.</p>
             </div>
           </div>
         </div>

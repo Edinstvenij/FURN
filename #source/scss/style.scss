@@ -67,7 +67,7 @@ body {
 .container {
   position: relative;
   margin: 0 auto;
-  padding: 0px 80px;
+  padding: 0px 30px;
 
   &-fix {
     width: #{$maxWidth + px};
@@ -504,7 +504,7 @@ body {
 
   &__body {
     margin-top: 103px;
-    padding: 0px 60px;
+    padding: 0px 30px;
   }
 
   &__social {
@@ -607,7 +607,7 @@ body {
   }
 }
 
-//adaptiv
+//adaptiv NAV 
 .nav__row {
   @media(max-width:1450px) {
     .nav__li {
@@ -644,11 +644,11 @@ body {
     padding-top: 20px;
 
     .menu__body {
-      margin-top: 50px;
+      margin-top: 80px;
     }
 
     .nav__li {
-      @include adaptiv-font(60, 14);
+      @include adaptiv-font(60, 20);
     }
 
 
@@ -677,18 +677,10 @@ body {
       }
     }
 
-    @media (max-height:580px),
-    (min-width:1440px) {
+    @media (max-height:580px) and (min-width:1440px) {
       .nav__li {
         font-size: 60px;
       }
-    }
-  }
-
-  @media (max-width:970px),
-  (max-height:600px) {
-    .nav__li {
-      font-size: 30px;
     }
   }
 
@@ -698,7 +690,36 @@ body {
       padding-left: 0px;
     }
   }
+
+  @media(max-height:590px) and (min-width:768px) {
+    .nav__li {
+      font-size: 46px;
+    }
+  }
+
+  @media(max-height:530px) and (max-width:767px) {
+    .nav__li {
+      font-size: 20px;
+    }
+
+    .menu__body {
+      margin-top: 20px;
+    }
+  }
+
+  @media(max-height:530px) and (min-width:767px) {
+    .nav__li {
+      font-size: 40px;
+    }
+
+    .menu__body {
+      margin-top: 20px;
+    }
+  }
+
 }
+
+
 
 
 .copyright {
@@ -1522,17 +1543,13 @@ product-page.html
   }
 
   &__button {
-    width: 50%;
+    width: 75%;
     font-size: 20px;
     margin: 0 auto;
     padding: 14px 0px;
 
     background: #000;
     color: #FFFFFF;
-
-    @media(max-width: 1024px) {
-      width: 75%;
-    }
 
     @media(max-width: 570px) {
       padding: 10px 0px 9px;
@@ -1639,7 +1656,7 @@ product-page.html
   }
 
   &__text {
-    width: 540px;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1671,7 +1688,7 @@ product-page.html
     font-family: Torsos;
     font-weight: 500;
 
-    margin-bottom: 21px;
+    margin-bottom: 5px;
 
     text-transform: uppercase;
 
@@ -1685,6 +1702,15 @@ product-page.html
 
   }
 
+  &__title-about {
+    margin-bottom: 20px;
+  }
+
+  &__title-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
   &__subtitle {
     @include adaptiv-font(28, 9);
     font-weight: 500;
@@ -1693,20 +1719,38 @@ product-page.html
       font-size: 20px;
     }
 
+    P:first-child {
+      margin-bottom: 30px;
+    }
+
+    //Все абзацы имеют отступ вниз
+    //  p {
+    //   margin-bottom: 30px;
+
+    //   &:last-child {
+    //     margin-bottom: 0px;
+    //   }
+    // }
   }
 
+  &__subtitle-noFirst {
+    P:first-child {
+      margin-bottom: 0px;
+    }
+
+  }
 }
 
 .about {
   position: relative;
   z-index: 3;
 
-  padding: 120px 41px 63px;
+  padding: 120px 111px 63px;
   background: #ffffff;
 
   @media(max-width:767px) {
 
-    padding: 60px 25px 63px 15px;
+    padding: 60px 55px 63px;
   }
 
   &__text {}

@@ -6,7 +6,7 @@ require_once 'blocks/header.php' ?>
   <section class="contact">
     <div class="row row-jcsb contact__row">
       <div class="col contact__col">
-        <p class="contact__title">Are you a talented designer or experienced brand manager? Write to us, we are open to cooperation!</p>
+        <p class="contact__title">Are you a talented designer or experienced brand manager?<br>Write to us, we are open to cooperation!</p>
         <p class="contact__title contact__site">Fürn.</p>
         <div class="contact__links">
           <a class="contact__link" href="mailto:furn.in.touch@gmail.com">furn.in.touch@gmail.com</a>
