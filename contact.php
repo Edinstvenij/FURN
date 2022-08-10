@@ -19,7 +19,7 @@ require_once 'blocks/header.php' ?>
         <form class="form" action="telegram.php" method="POST">
           <div class="col form__col">
             <input name="form-name" type="hidden" value="Form contact page">
-            <input title="" class="form__input" id="user-name" type="text" name="name" placeholder="YOUR NAME" minlength="2" maxlength="20" required>
+            <input class="form__input" id="user-name" type="text" name="name" placeholder="YOUR NAME" minlength="2" maxlength="20" required>
             <input class="form__input" id="user-email" type="email" name="email" placeholder="YOUR EMAIL" required>
             <button id="tg-form-btn" class="form__button" type="submit">SUBMIT</button>
           </div>

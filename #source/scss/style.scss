@@ -1491,6 +1491,7 @@ product-page.html
 }
 
 .form {
+
   &__col {}
 
   &__input {
@@ -1498,6 +1499,7 @@ product-page.html
 
     width: 100%;
     border: 1px solid #C9C9C9;
+    border-radius: 0px;
 
     margin-bottom: 40px;
 
