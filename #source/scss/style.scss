@@ -1137,10 +1137,9 @@ product-page.html
       }
     }
 
-    @media (max-height: 720px) {
-      font-size: 20px;
+    @media (max-height: 820px) {
+      font-size: 25px;
       margin-bottom: 10px;
-
     }
 
     @media (max-height: 640px) {
@@ -1177,6 +1176,10 @@ product-page.html
 
     &:last-child {
       margin-bottom: 0px;
+    }
+
+    @media (max-height: 820px) {
+      font-size: 18px;
     }
 
     @media (max-height: 720px) {
