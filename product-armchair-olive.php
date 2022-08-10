@@ -86,10 +86,7 @@ require_once 'blocks/header.php' ?>
       </div>
       <div class="product-info__wrapper-row-img">
         <div class="product-info__wrapper-img ">
-          <picture>
-            <source srcset="img/product/1-info-armchair.webp" type="image/webp">
-            <img src="img/product/1-info-armchair.png" alt="">
-          </picture>
+          <img src="img/product/1-info-armchair.png" alt="">
         </div>
       </div>
     </div>

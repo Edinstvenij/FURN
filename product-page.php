@@ -89,16 +89,13 @@ require_once 'blocks/header.php' ?>
           <li class="product-info__info-li">height: 800 mm</li>
           <li class="product-info__info-li">worktop: 300 mm</li>
         </ul>
-        <a class="product-info__info-link" href="img/download/How_to_care_FURN_lounge_chair.pdf">HOW TO CARE </a>
+        <a class="product-info__info-link" href="img/download/How_to_care_FURN_lounge_chair.pd">HOW TO CARE </a>
         <a class="product-info__info-link" href="img/download/LIQUID_TABLE_3D_2D.rar">DOWNLOAD 2D 3D</a>
         <a class="product-info__info-link" href="delivery.php">SHIPPING INFORMATION</a>
       </div>
       <div class="product-info__wrapper-row-img">
         <div class="product-info__wrapper-img ">
-          <picture>
-            <source srcset="img/product/1-info-product-noize-table.webp" type="image/webp">
-            <img src="img/product/1-info-product-noize-table.png" alt="">
-          </picture>
+          <img src="img/product/1-info-product-noize-table.png" alt="">
         </div>
       </div>
     </div>
