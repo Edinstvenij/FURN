@@ -1108,11 +1108,12 @@ product-page.html
   overflow: hidden;
   text-transform: uppercase;
 
-  @media (max-width:500px) {
+  @media (max-width:600px) {
     height: 87vh;
     padding: 58px 15px 30px 30px;
 
   }
+
 
   &__wrapper {
     width: 100%;
@@ -1125,7 +1126,7 @@ product-page.html
     height: 100%;
     justify-content: space-between;
 
-    @media (max-width:500px) {
+    @media (max-width:600px) {
       flex-direction: column-reverse;
       justify-content: start;
     }
@@ -1163,14 +1164,22 @@ product-page.html
       }
     }
 
-    @media (max-height: 820px) {
+    @media (max-width:600px) and (min-height:900px) {
+      font-size: 36px;
+    }
+
+    @media (max-height: 899px) {
+      font-size: 28px;
+    }
+
+    @media (max-height: 820px) and (max-width:700px) {
       font-size: 25px;
       margin-bottom: 10px;
     }
 
-    @media (max-height: 640px) {
+    @media (max-height: 640px) and (max-width:400px) {
       font-size: 20px;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
   }
 
@@ -1204,7 +1213,11 @@ product-page.html
       margin-bottom: 0px;
     }
 
-    @media (max-height: 820px) {
+    @media (max-width:600px) and (min-height:900px) {
+      font-size: 22px;
+    }
+
+    @media (max-height: 899px) {
       font-size: 18px;
     }
 
@@ -1223,7 +1236,7 @@ product-page.html
     display: flex;
     align-items: center;
 
-    @media (max-width:500px) {
+    @media (max-width:600px) {
       justify-content: center;
       margin-bottom: 48px;
     }
@@ -1235,7 +1248,7 @@ product-page.html
     height: 100%;
     width: 100%;
 
-    @media (max-width:500px) {
+    @media (max-width:600px) {
       max-width: 232px;
       margin-left: -30px;
     }
