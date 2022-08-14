@@ -14,42 +14,42 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-product-noize-table.webp" type="image/webp">
-              <img src="img/product/1-product-noize-table.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-product-noize-table.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-product-noize-table.webp" type="image/webp">
-              <img src="img/product/2-product-noize-table.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-product-noize-table.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-product-noize-table.webp" type="image/webp">
-              <img src="img/product/3-product-noize-table.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-product-noize-table.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-product-noize-table.webp" type="image/webp">
-              <img src="img/product/4-product-noize-table.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-product-noize-table.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/5-product-noize-table.webp" type="image/webp">
-              <img src="img/product/5-product-noize-table.png" alt="SITTING">
-            </picture>
+            <img src="img/product/5-product-noize-table.jpg" alt="SITTING">
+          </div>
+        </div>
+        <div class="swiper-slide product-preview__slider-slide">
+          <div class="product-preview__slider-wrapper-img">
+            <img src="img/product/6-product-noize-table.jpg" alt="SITTING">
+          </div>
+        </div>
+        <div class="swiper-slide product-preview__slider-slide">
+          <div class="product-preview__slider-wrapper-img">
+            <img src="img/product/7-product-noize-table.jpg" alt="SITTING">
+          </div>
+        </div>
+        <div class="swiper-slide product-preview__slider-slide">
+          <div class="product-preview__slider-wrapper-img">
+            <img src="img/product/8-product-noize-table.jpg" alt="SITTING">
           </div>
         </div>
       </div>

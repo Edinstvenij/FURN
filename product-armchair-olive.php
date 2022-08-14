@@ -14,34 +14,22 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-armchair-olive.webp" type="image/webp">
-              <img src="img/product/1-armchair-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-armchair-olive.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-armchair-olive.webp" type="image/webp">
-              <img src="img/product/2-armchair-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-armchair-olive.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-armchair-olive.webp" type="image/webp">
-              <img src="img/product/3-armchair-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-armchair-olive.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-armchair-olive.webp" type="image/webp">
-              <img src="img/product/4-armchair-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-armchair-olive.jpg" alt="SITTING">
           </div>
         </div>
       </div>

@@ -13,34 +13,22 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-armchair-mushroom.webp" type="image/webp">
-              <img src="img/product/1-armchair-mushroom.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-armchair-mushroom.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-armchair-mushroom.webp" type="image/webp">
-              <img src="img/product/2-armchair-mushroom.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-armchair-mushroom.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-armchair-mushroom.webp" type="image/webp">
-              <img src="img/product/3-armchair-mushroom.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-armchair-mushroom.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-armchair-mushroom.webp" type="image/webp">
-              <img src="img/product/4-armchair-mushroom.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-armchair-mushroom.jpg" alt="SITTING">
           </div>
         </div>
       </div>
@@ -61,8 +49,7 @@ require_once 'blocks/header.php' ?>
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
           <p class="product-preview__slider-product-name">prowling lounge chair mushroom</p>
-          <button class="product-preview__slider-product-order-button" style="background-color: #CBC2B4;">Check
-            price</button>
+          <button class="product-preview__slider-product-order-button" style="background-color: #CBC2B4;">Check price</button>
         </div>
       </div>
     </div>

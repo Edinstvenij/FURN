@@ -13,45 +13,24 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-puff-grape.webp" type="image/webp">
-              <img src="img/product/1-puff-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-puff-grape.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-puff-grape.webp" type="image/webp">
-              <img src="img/product/2-puff-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-puff-grape.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-puffs.webp" type="image/webp">
-              <img src="img/product/3-puffs.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-puffs.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-puffs.webp" type="image/webp">
-              <img src="img/product/4-puffs.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-puffs.jpg" alt="SITTING">
           </div>
         </div>
-        <div class="swiper-slide product-preview__slider-slide">
-          <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/5-puff-grape.webp" type="image/webp">
-              <img src="img/product/5-puff-grape.png" alt="SITTING">
-            </picture>
-          </div>
-        </div>
-
       </div>
       <!-- If we need navigation buttons -->
       <div class="product-preview__slider-row-button">

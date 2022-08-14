@@ -13,42 +13,22 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-puff-olive.webp" type="image/webp">
-              <img src="img/product/1-puff-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-puff-olive.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-puff-olive.webp" type="image/webp">
-              <img src="img/product/2-puff-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-puff-olive.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-puffs.webp" type="image/webp">
-              <img src="img/product/3-puffs.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-puffs.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-puffs.webp" type="image/webp">
-              <img src="img/product/4-puffs.png" alt="SITTING">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide product-preview__slider-slide">
-          <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/5-puff-olive.webp" type="image/webp">
-              <img src="img/product/5-puff-olive.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-puffs.jpg" alt="SITTING">
           </div>
         </div>
       </div>
@@ -69,10 +49,7 @@ require_once 'blocks/header.php' ?>
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
           <p class="product-preview__slider-product-name">lurking pouf olive</p>
-          <button class="product-preview__slider-product-order-button" style="background-color: #B9B43C;"><a href="#top" id="multi-btn">
-              Check
-              price
-            </a></button>
+          <button class="product-preview__slider-product-order-button" style="background-color: #B9B43C;"><a href="#top" id="multi-btn">Check price</a></button>
         </div>
       </div>
     </div>

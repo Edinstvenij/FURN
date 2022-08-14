@@ -13,34 +13,22 @@ require_once 'blocks/header.php' ?>
         <!-- Slides -->
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/1-armchair-grape.webp" type="image/webp">
-              <img src="img/product/1-armchair-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/1-armchair-grape.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/2-armchair-grape.webp" type="image/webp">
-              <img src="img/product/2-armchair-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/2-armchair-grape.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/3-armchair-grape.webp" type="image/webp">
-              <img src="img/product/3-armchair-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/3-armchair-grape.jpg" alt="SITTING">
           </div>
         </div>
         <div class="swiper-slide product-preview__slider-slide">
           <div class="product-preview__slider-wrapper-img">
-            <picture>
-              <source srcset="img/product/4-armchair-grape.webp" type="image/webp">
-              <img src="img/product/4-armchair-grape.png" alt="SITTING">
-            </picture>
+            <img src="img/product/4-armchair-grape.jpg" alt="SITTING">
           </div>
         </div>
       </div>
@@ -61,8 +49,7 @@ require_once 'blocks/header.php' ?>
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
           <p class="product-preview__slider-product-name">prowling lounge chair grape</p>
-          <button class="product-preview__slider-product-order-button" style="background-color: #8D7998;">Check
-            price</button>
+          <button class="product-preview__slider-product-order-button" style="background-color: #8D7998;">Check price</button>
         </div>
       </div>
     </div>

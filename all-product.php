@@ -85,7 +85,7 @@ require_once 'blocks/header.php'; ?>
               <a href="<?= $value['link'] ?>">
                 <picture>
                   <source srcset="<?= $value['srcset'] ?>" type="<?= $value['type'] ?>">
-                  <img src="i<?= $value['img'] ?>" alt="<?= $value['alt'] ?>">
+                  <img src="<?= $value['img'] ?>" alt="<?= $value['alt'] ?>">
                 </picture>
               </a>
             </div>
