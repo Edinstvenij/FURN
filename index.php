@@ -21,7 +21,7 @@ $slider = [
     'type_mobile' => 'image/webp',
     'srcset_desktop' => 'img/header-3-swiper.webp',
     'type_desktop' => 'image/webp',
-    'img' => 'img/header-3-swiper.png',
+    'img' => 'img/header-3-swiper.jpg',
     'alt' => 'fon',
   ],
   [
@@ -37,7 +37,7 @@ $slider = [
     'type_mobile' => 'image/webp',
     'srcset_desktop' => 'img/header-5-swiper.webp',
     'type_desktop' => 'image/webp',
-    'img' => 'img/header-5-swiper.jpg',
+    'img' => 'img/header-5-swiper.png',
     'alt' => 'fon',
   ],
 ];
