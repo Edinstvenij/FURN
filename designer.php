@@ -9,7 +9,7 @@ require_once 'blocks/header.php' ?>
   <section class="about">
     <div class="about__text">
       <h1 class="designer__title designer__title-about">HI! WE ARE FÜRN</h1>
-      <div class="designer__subtitle designer__subtitle-noFirst">
+      <div class="designer__subtitle designer__subtitle-descpription">
         <p>And we are happy to present to you our designer products.</p>
         <p>Our team develops interior items based on modern visual culture and unusual techniques that we widely use in our work.</p>
         <p>We pay a lot of attention to detail and work with experienced professionals to ensure that the final product can please you for many years.</p>

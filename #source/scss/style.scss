@@ -1818,7 +1818,9 @@ product-page.html
     // }
   }
 
-  &__subtitle-noFirst {
+  &__subtitle-descpription {
+    font-weight: 400;
+
     P:first-child {
       margin-bottom: 0px;
     }
