@@ -69,7 +69,7 @@ require_once 'blocks/header.php' ?>
       <!-- If we need titles and order buttons -->
       <div class="col product-preview__slider-col">
         <div class="product-preview__slider-col-wrapper">
-          <h2 class="product-preview__slider-product-name">liquid table</h2>
+          <p class="product-preview__slider-product-name">liquid table</p>
           <button class="product-preview__slider-product-order-button">Check price</button>
         </div>
       </div>
