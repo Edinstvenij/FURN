@@ -1142,7 +1142,7 @@ product-page.html
     padding: 58px 15px 30px 30px;
   }
 
-  @media (min-height:600px) {
+  @media (min-height:600px) and (max-width:600px) {
     height: 89vh;
   }
 
