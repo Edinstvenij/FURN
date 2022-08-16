@@ -1140,7 +1140,10 @@ product-page.html
   @media (max-width:600px) {
     height: 87vh;
     padding: 58px 15px 30px 30px;
+  }
 
+  @media (min-height:600px) {
+    height: 89vh;
   }
 
 
