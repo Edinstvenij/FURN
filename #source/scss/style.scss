@@ -607,6 +607,12 @@ body {
   }
 }
 
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 //adaptiv NAV 
 .nav__row {
   @media(max-width:1450px) {
@@ -668,13 +674,19 @@ body {
     }
 
 
-    @media (max-height:780px),
+    @media (max-height:980px),
     (max-width:640px) {
       padding: 20px 30px 30px;
 
       .nav__li {
         font-size: 30px;
         margin-bottom: 10px;
+      }
+
+      .menu__social-li {
+        a {
+          padding: 5px 5px 5px 0px;
+        }
       }
     }
 
@@ -720,7 +732,8 @@ body {
 
   @media (max-height:460px) {
     .nav__li {
-      font-size: 20px;
+      font-size: 22px;
+      margin-bottom: 5px;
     }
   }
 
@@ -733,16 +746,15 @@ body {
       font-size: 10px;
       margin: 0px 4px 6px 0px;
     }
+
+    .menu__social-ul {
+      margin-bottom: 4px;
+    }
+
+    .copyright {
+      font-size: 8px;
+    }
   }
-}
-
-
-
-
-.copyright {
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
 }
 
 /**
