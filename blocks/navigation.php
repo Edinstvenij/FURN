@@ -1,7 +1,7 @@
 <div class="menu">
   <div class="content">
     <div class="row row-jcsb row-ai-center">
-      <div class="wrapper-img wrapper-header-all-product-logo"><a href="/"><img src="img/mini-logo.svg" alt=""></a></div>
+      <div class="wrapper-img wrapper-header-all-product-logo"><a href="/"><img src="img/mini-logo.png" alt=""></a></div>
       <span class="menu-toggle menu__button" id="buttonInMenu"></span>
     </div>
     <div class="menu__body">

@@ -33,7 +33,7 @@ $filters = [
             echo 'animation-turn';
           } ?>">
 
-          <a href="/"><img src="img/mini-logo.svg" alt=""></a>
+          <a href="/"><img src="img/mini-logo.png" alt=""></a>
         </div>
         <?php if ($_SERVER['REQUEST_URI'] != '/delivery.php' && $_SERVER['REQUEST_URI'] != '/designer.php' && $_SERVER['REQUEST_URI'] != '/index.php' && $_SERVER['REQUEST_URI'] != '/' && $_SERVER['REQUEST_URI'] != '/contact.php') { ?>
           <nav class="catalog">
