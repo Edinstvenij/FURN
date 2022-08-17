@@ -4,7 +4,6 @@ $title = 'lounge olive';
 require_once 'blocks/header.php' ?>
 <!-- END header -->
 
-
 <section class="product-preview-wrapper">
   <div class="product-preview">
     <!-- Slider main container -->

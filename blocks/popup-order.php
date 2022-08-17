@@ -4,6 +4,7 @@
       <form class="popup-order__form">
         <div class="popup-order__form-item">
           <input type="hidden" name="form-name" value="Check Price">
+          <input type="hidden" name="page" value="<?= $_SERVER['REQUEST_URI'] ?>">
           <input class="popup-order__form-input" id="name" type="text" name="name" placeholder="YOUR NAME" required>
         </div>
         <div class="popup-order__form-item">

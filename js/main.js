@@ -120,6 +120,7 @@ $('.popup-order__form').on('submit', function (event) {
   $('input, textarea', form).attr('disabled', '');
 
   data.append('Form name', $('[name="form-name"]', form).val());
+  data.append('Page', $('[name="page"]', form).val());
   data.append('User name', $('[name="name"]', form).val());
   data.append('User email', $('[name="email"]', form).val());
   data.append('User tel', $('[name="tel"]', form).val());
