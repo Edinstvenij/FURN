@@ -9,7 +9,7 @@ require_once 'blocks/header.php' ?>
     <div class="delivery__item">
       <h4 class="delivery__title">Information about delivery</h4>
       <div class="delivery__text">
-        <p>Delivery across the territory of Ukraine is carried out by new mail free of charge.</p>
+        <p>Delivery across the territory of Ukraine is carried out by Nova Poshta free of charge.</p>
         <p>International delivery is carried out by any service convenient for you.</p>
         <p>Please note that local taxes and customs duties may apply in the destination country, also our prices do not include shipping costs, all shipping costs including VAT (taxes) are the responsibility of the buyer.</p>
         <p>We make sure that our products are packaged properly so that they can handle the trip. Each order is accompanied by a video and a photo of its packaging.</p>
