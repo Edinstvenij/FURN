@@ -42,7 +42,7 @@ $slider = [
   ],
 ];
 
-$title = 'FURN'
+$title = 'FÜRN'
 
 ?>
 
@@ -96,10 +96,10 @@ $title = 'FURN'
         </div>
         <div class="header__marquee">
           <div>
-            <p>HI, IT'S AN UKRAINIAN FURNITURE MANUFACTURE</p>
-            <p>HI, IT'S AN UKRAINIAN FURNITURE MANUFACTURE</p>
-            <p>HI, IT'S AN UKRAINIAN FURNITURE MANUFACTURE</p>
-            <p>HI, IT'S AN UKRAINIAN FURNITURE MANUFACTURE</p>
+            <p>HI, IT'S THE UKRAINIAN FURNITURE MANUFACTURE</p>
+            <p>HI, IT'S THE UKRAINIAN FURNITURE MANUFACTURE</p>
+            <p>HI, IT'S THE UKRAINIAN FURNITURE MANUFACTURE</p>
+            <p>HI, IT'S THE UKRAINIAN FURNITURE MANUFACTURE</p>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@
           <ul class="nav__ul">
             <li class="nav__li"><a href="all-product.php">Shop</a></li>
             <li class="nav__li"><a href="delivery.php">Delivery</a></li>
-            <li class="nav__li"><a href="#">Catalog</a></li>
+            <li class="nav__li"><a href="/img/download/Furn.pdf" target="blank">Catalog</a></li>
             <li class="nav__li"><a href="designer.php">Team</a></li>
             <li class="nav__li"><a href="contact.php">Contact</a></li>
           </ul>
