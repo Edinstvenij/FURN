@@ -21,8 +21,8 @@ require_once 'blocks/header.php' ?>
     <div class="designer__wrapper">
       <div class="wrapper-img designer__wrapper-item">
         <picture>
-          <source media="(max-width: 500px)" src="img/designer/1-designer-mobile.webp" type="image/webp">
-          <source media="(min-width: 501px)" src="img/designer/1-designer.webp" type="image/webp">
+          <source media="(max-width: 500px)" srcset="img/designer/1-designer-mobile.webp" type="image/webp">
+          <source media="(min-width: 501px)" srcset="img/designer/1-designer.webp" type="image/webp">
           <img class="designer__img" src="img/designer/1-designer.png" alt="designer">
         </picture>
         <div class="designer__description">
@@ -41,8 +41,8 @@ require_once 'blocks/header.php' ?>
       </div>
       <div class="wrapper-img designer__wrapper-item">
         <picture>
-          <source media="(max-width: 500px)" src="img/designer/2-designer-mobile.webp" type="image/webp">
-          <source media="(min-width: 501px)" src="img/designer/2-designer.webp" type="image/webp">
+          <source media="(max-width: 500px)" srcset="img/designer/2-designer-mobile.webp" type="image/webp">
+          <source media="(min-width: 501px)" srcset="img/designer/2-designer.webp" type="image/webp">
           <img class="designer__img" src="img/designer/2-designer.png" alt="designer">
         </picture>
         <div class="designer__description">

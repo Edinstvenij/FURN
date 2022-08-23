@@ -30,7 +30,7 @@ require_once 'blocks/header.php' ?>
       <ul class="row menu__social-ul contact__socila-ul">
         <li class="menu__social-li contact__socila-li"><a href="https://www.instagram.com/furn_furn_furn/" target="_blank">Instagram</a> </li>
         <li class="menu__social-li contact__socila-li"><a href="https://www.behance.net/furnmanufacture" target="_blank">Behance</a></li>
-        <li class="menu__social-li contact__socila-li"><a href="tel:+380 96 191 8177" target="_blank">Telegram</a></li>
+        <li class="menu__social-li contact__socila-li"><a href="https://t.me/FURN_communication" target="_blank">Telegram</a></li>
         <li class="menu__social-li contact__socila-li"><a href="https://www.pinterest.com/fmanufacture/" target="_blank">Pinterest</a></li>
         <li class="menu__social-li contact__socila-li"><a href="https://wa.me/message/6F3P4J5BBHEZA1" target="_blank">Whatsapp</a></li>
       </ul>
