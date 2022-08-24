@@ -17,6 +17,7 @@ $filters = [
   <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/swiper.css" />
   <link rel="stylesheet" href="css/style.min.css">
+  <meta name="p:domain_verify" content="dd943541b4e29d1928acdccf90e85b83" />
   <title><?= $title ?></title>
 </head>
 
